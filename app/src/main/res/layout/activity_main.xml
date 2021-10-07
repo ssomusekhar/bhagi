@@ -43,4 +43,35 @@
         android:textSize="12dp"
         android:layout_gravity="center"
         android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:layout_margin="15dp"
+        android:textColor="@color/black"
+        android:textSize="14dp"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
 </LinearLayout>
